@@ -18,5 +18,9 @@ class Personnage
     public function getHealth() {
         return $this->health;
     }
+
+    public function __destruct() {
+        echo "Je suis mort";
+    }
 };
 
